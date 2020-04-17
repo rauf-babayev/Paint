@@ -1,0 +1,31 @@
+{
+  "name": "paint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rauf-babayev/Paint.git"
+  },
+  "author": "Rauf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rauf-babayev/Paint/issues"
+  },
+  "homepage": "https://github.com/rauf-babayev/Paint#readme",
+  "dependencies": {
+    "browser-sync": "2.26.7",
+    "browserify": "16.5.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "2.2.0",
+    "gulp-concat": "2.6.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "sass": "^1.26.3",
+    "vinyl-source-stream": "2.0.0"
+  }
+}
